@@ -1,0 +1,1 @@
+docker run -it --rm --volumes-from ikev2-vpn -e "HOST=172.106.88.48" docker.io/wwyyzz/ikev2-vpn  generate-mobileconfig > /root/ikev2-vpn.mobileconfig
